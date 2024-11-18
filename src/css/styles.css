@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  background-color: sandybrown;
+  color: white;
+}
+
+.croissant {
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+a {
+  color: white;
+}
