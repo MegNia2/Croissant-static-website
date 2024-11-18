@@ -1,7 +1,7 @@
 body {
   text-align: center;
-  background-color: sandybrown;
-  color: white;
+  background-color: #fff5db;
+  color: #8d3705;
 }
 
 .croissant {
@@ -10,5 +10,12 @@ body {
 }
 
 a {
-  color: white;
+  color: #f3ad61;
+  font-weight: bold;
+}
+
+.primary-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
 }
