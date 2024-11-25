@@ -1,7 +1,11 @@
 body {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
   text-align: center;
   background-color: #fff5db;
   color: #8d3705;
+  max-width: 780px;
 }
 
 .croissant {
@@ -9,13 +13,28 @@ body {
   border-radius: 5px;
 }
 
+.croissant-info {
+  background-color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
 a {
   color: #f3ad61;
   font-weight: bold;
 }
 
-.primary-links {
+.primary-links a {
   list-style: none;
   display: flex;
   justify-content: space-around;
+  color: white;
+}
+
+button {
+  background: #8d3705;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
 }
